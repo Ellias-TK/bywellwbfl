@@ -98,7 +98,7 @@ h4 {
   text-transform: capitalize;
   text-shadow: 0 1px 1px #0003;
   background-color: #0000;
-  background-image: linear-gradient(135deg, purple, #fff0 61%);
+  background-image: none;
   border-radius: 6px;
   width: 500px;
   margin: 50px 0 0;
@@ -106,9 +106,9 @@ h4 {
   padding-bottom: 5px;
   padding-left: 5px;
   font-family: Exo, sans-serif;
-  font-size: 40px;
+  font-size: 39px;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 48px;
 }
 
@@ -1098,7 +1098,7 @@ h4 {
   color: var(--white);
   font-family: Exo, sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 24px;
 }
 
@@ -1117,7 +1117,7 @@ h4 {
   justify-content: center;
   align-items: flex-start;
   margin-top: 40px;
-  padding: 20px 10px 40px 20px;
+  padding: 40px 10px 40px 20px;
   font-family: Exo, sans-serif;
   display: flex;
 }
@@ -1164,7 +1164,8 @@ h4 {
 .text-span-4 {
   color: #ebebeb;
   background-color: purple;
-  padding-left: 5px;
+  border-radius: 10px 0 0 10px;
+  padding-left: 10px;
   padding-right: 5px;
 }
 
@@ -1202,6 +1203,8 @@ h4 {
   width: 100%;
   max-width: 1140px;
   margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -1448,6 +1451,10 @@ h4 {
   display: flex;
 }
 
+.heading-24 {
+  font-family: Exo, sans-serif;
+}
+
 .linkd-block-copy {
   background-image: url('../images/toppng-1.png');
   background-position: 50%;
@@ -1469,6 +1476,55 @@ h4 {
   width: 140px;
   height: 60px;
   margin-left: 0;
+}
+
+.heading-25 {
+  text-transform: uppercase;
+  font-family: Exo, sans-serif;
+  font-size: 49px;
+  font-weight: 900;
+}
+
+.text-block-8 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Exo, sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+}
+
+.div-block-43 {
+  padding-top: 0;
+  font-family: Exo, sans-serif;
+}
+
+.div-block-44 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.heading-26 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: Exo, sans-serif;
+  font-size: 45px;
+}
+
+.paragraph-7 {
+  text-align: left;
+  word-break: normal;
+  overflow-wrap: normal;
+  width: 800px;
+  margin-left: 40px;
+  padding-right: 40px;
+  font-family: Exo, sans-serif;
+}
+
+.container-8 {
+  font-family: Exo, sans-serif;
 }
 
 @media screen and (max-width: 991px) {
@@ -1602,10 +1658,12 @@ h4 {
   }
 
   .heading {
+    -webkit-backdrop-filter: drop-shadow(4px 7px 11px #000000f0);
+    backdrop-filter: drop-shadow(4px 7px 11px #000000f0);
     color: #ff0;
     text-align: left;
     text-transform: none;
-    background-image: linear-gradient(90deg, purple, #fff0 59%);
+    background-image: none;
     border-radius: 8px;
     align-self: flex-start;
     width: 400px;
@@ -2285,6 +2343,28 @@ h4 {
     font-style: normal;
     font-weight: 900;
   }
+
+  .heading-26 {
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+
+  .paragraph-7 {
+    text-align: left;
+    width: 340px;
+    margin: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+  }
+
+  .container-8 {
+    text-align: left;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2333,6 +2413,7 @@ h4 {
   .heading {
     color: #ff0;
     text-transform: capitalize;
+    background-image: none;
     border-radius: 5px;
     align-self: center;
     width: 250px;
@@ -2342,7 +2423,7 @@ h4 {
     padding-top: 6px;
     padding-bottom: 6px;
     font-family: Exo, sans-serif;
-    font-size: 19px;
+    font-size: 21px;
     font-style: italic;
     font-weight: 500;
     line-height: 29px;
@@ -3092,8 +3173,16 @@ h4 {
     width: 132px;
     height: 40px;
   }
+
+  .paragraph-7 {
+    width: 300px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
-#w-node-_92b68b36-f3af-dafe-facb-d07068eb04c2-b817f030, #w-node-_92b68b36-f3af-dafe-facb-d07068eb04d6-b817f030 {
+#w-node-_92b68b36-f3af-dafe-facb-d07068eb04c2-b817f030, #w-node-_92b68b36-f3af-dafe-facb-d07068eb04d6-b817f030, #w-node-d5d04914-f4dc-1110-7019-9b906be0ac1e-cbe4ad09, #w-node-d5d04914-f4dc-1110-7019-9b906be0ac25-cbe4ad09, #w-node-d916fa14-2a61-cad3-e20c-a52f689d3ea7-74d17c8e, #w-node-d916fa14-2a61-cad3-e20c-a52f689d3eae-74d17c8e {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
